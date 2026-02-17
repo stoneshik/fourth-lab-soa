@@ -26,17 +26,6 @@ spring:
   mvc:
     pathmatch:
       matching-strategy: "ant_path_matcher"
-  cloud:
-    consul:
-      host: "${CONSUL_HOST}"
-      port: "${CONSUL_PORT}"
-      discovery:
-        register: true
-        service-name: ${spring.application.name}
-        instance-id: ${spring.application.name}:${server.port}
-        health-check-url: "https://localhost:${SOA_SERVICE_PORT}/actuator/health"
-        health-check-interval: 10s
-        health-check-tls-skip-verify: true
 
 management:
   endpoints:
