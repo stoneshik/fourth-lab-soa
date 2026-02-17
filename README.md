@@ -83,5 +83,5 @@ SOA_SERVICE_PORT=33511 java -jar soa-0.0.1-SNAPSHOT.jar
 ### Ссылки на репозитории лабораторной
 
 1. Ссылка на основной вызываемый сервис реализованный на Spring Boot - https://github.com/stoneshik/fourth-lab-soa
-2. Ссылка на второй вызывающий сервис реализованный на JAX-RS - https://github.com/stoneshik/fourth-lab-soa-second
+2. Ссылка на второй вызывающий сервис реализованный на SOAP wildfly - https://github.com/stoneshik/fourth-lab-soa-second
 3. Ссылка на фронтенд - https://github.com/stoneshik/fourth-lab-soa-frontend
