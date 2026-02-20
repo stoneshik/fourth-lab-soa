@@ -73,7 +73,7 @@ mvn package -DskipTests
 
 Запуск сервисов:
 ```
-SOA_SERVICE_PORT=33511 java -jar soa-0.0.1-SNAPSHOT.jar
+java -jar soa-0.0.1-SNAPSHOT.jar
 ```
 
 **Порты которые нужно пробросить:**
